@@ -1,0 +1,103 @@
+@media (max-width: 750px) {
+    body {
+        font-size: 12px;
+    }
+
+    .pokedex {
+        flex-direction: column;
+        padding: 30px 0;
+    }
+
+    .poke-card {
+        max-width: 300px;
+    }
+
+    .poke-card .card-img {
+        width: 200px;
+        height: 200px;
+        margin-top: 10px;
+    }
+
+    .poke-card .card-info {
+        padding: 60px 30px 30px;
+        margin-top: -50px;
+    }
+
+    /* .poke-card .card-details .card-info {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+    } */
+
+    .poke-card .card-details h3 {
+        font-size: 16px;
+    }
+
+    .poke-selector {
+        max-width: 300px;
+    }
+
+    .poke-selector ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .poke-selector .pokemon {
+        width: 140px;
+        border-radius: 8px;
+        margin-bottom: 0;
+    }
+
+    .poke-selector .pokemon span {
+        padding-right: 5px;
+    }
+
+    .bg_music {
+        text-decoration: none;
+        position: absolute;
+        z-index: 10;
+        top: 25%;
+        left: 10%;
+        transform: translateX(-50%) translateY(-50%);
+        box-sizing: content-box;
+        display: block;
+        width: 32px;
+        height: 44px;
+        /* background: #fa183d; */
+        border-radius: 50%;
+        padding: 18px 20px 18px 28px;
+    }
+
+    .bg_music.play:before {
+        content: "";
+        color: red;
+        position: absolute;
+        z-index: 0;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: #c91515;
+        border-radius: 50%;
+        animation: pulse-border 1500ms ease-out infinite;
+    }
+
+    .bg_music.play:after {
+        content: "";
+        position: absolute;
+        z-index: 1;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        display: block;
+        width: 40px;
+        height: 40px;
+        background: #c91515;
+        border-radius: 50%;
+        transition: all 200ms;
+    }
+}

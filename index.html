@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pokédex | MapaDev</title>
+	<link rel="stylesheet" href="src/css/reset.css">
+	<link rel="stylesheet" href="src/css/global.css">
+	<link rel="stylesheet" href="src/css/card.css">
+	<link rel="stylesheet" href="src/css/listing.css">
+	<link rel="stylesheet" href="src/css/resp.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<a id="playM" class="bg_music off" href="#">
+		<span>PLAY</span>
+	</a>
+
+	<main>
+		<div class="pokedex">
+
+			<div class="poke-cards">
+
+				<div class="poke-card open type-shock" id="card-pikachu">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Pikachu</h2>
+							<span># 001</span>
+						</div>
+
+						<span class="card-type">Eletrico</span>
+
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img src="src/images/pikachu.png" alt="pikachu">
+						</div>
+					</div>
+
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 300</li>
+								<li>Ataque: 400</li>
+								<li>Defesa: 300</li>
+								<li>Velocidade: 600</li>
+								<li>Total: 1600</li>
+							</ul>
+						</div>
+
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Choque do trovão</li>
+								<li>Investida</li>
+								<li>Calda de ferro</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="poke-card type-grass_p" id="card-bulbasaur">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Bulbasaur</h2>
+							<span>#002</span>
+						</div>
+
+						<span class="card-type">Grama</span>
+
+						<span class="card-type">veneno</span>
+
+
+
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img src="src/images/bulbasaur.png" alt="bulbasaur">
+						</div>
+					</div>
+
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 300</li>
+								<li>Ataque: 300</li>
+								<li>Defesa: 300</li>
+								<li>Velocidade: 300</li>
+								<li>Total: 1200</li>
+							</ul>
+						</div>
+
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Chicote de Vinha</li>
+								<li>Chicote Poderoso</li>
+								<li>Rajada de semente</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="poke-card type-fire" id="card-charmander">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Charmander</h2>
+							<span>#003</span>
+						</div>
+
+						<span class="card-type">fogo</span>
+
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img src="src/images/charmander.png" alt="charmander">
+						</div>
+					</div>
+
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 300</li>
+								<li>Ataque: 400</li>
+								<li>Defesa: 300</li>
+								<li>Velocidade: 400</li>
+								<li>Total: 1400</li>
+							</ul>
+						</div>
+
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Brasa</li>
+								<li>Lança-chamas</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="poke-card type-aqua_f" id="card-gyarados">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Gyarados</h2>
+							<span>#004</span>
+						</div>
+
+						<span class="card-type">água</span>
+
+						<span class="card-type">voador</span>
+
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img src="src/images/gyarados.png" alt="gyarados">
+						</div>
+					</div>
+
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 600</li>
+								<li>Ataque: 800</li>
+								<li>Defesa: 500</li>
+								<li>Velocidade: 400</li>
+								<li>Total: 2300</li>
+							</ul>
+						</div>
+
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Cachoeira</li>
+								<li>Jato d'Água</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="poke-card type-dark_p" id="card-gengar">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Gengar</h2>
+							<span>#005</span>
+						</div>
+
+						<span class="card-type">fantasma</span>
+
+						<span class="card-type">veneno</span>
+
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img src="src/images/gengar.png" alt="gengar">
+						</div>
+					</div>
+
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 400</li>
+								<li>Ataque: 400</li>
+								<li>Defesa: 400</li>
+								<li>Velocidade: 700</li>
+								<li>Total: 1900</li>
+							</ul>
+						</div>
+
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Lambida</li>
+								<li>Bola Sombria</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="poke-card type-drag_f" id="card-dragonite">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Dragonite</h2>
+							<span>#006</span>
+						</div>
+
+						<span class="card-type">dragão</span>
+
+						<span class="card-type">voador</span>
+
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img src="src/images/dragonite.png" alt="dragonite">
+						</div>
+					</div>
+
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 600</li>
+								<li>Ataque: 800</li>
+								<li>Defesa: 600</li>
+								<li>Velocidade: 500</li>
+								<li>Total: 2500</li>
+							</ul>
+						</div>
+
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Cauda do Dragão</li>
+								<li>Ultraje</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="poke-card type-psic_f" id="card-lugia">
+					<div class="card-top">
+						<div class="card-details">
+							<h2 class="card-name">Lugia</h2>
+							<span>#007</span>
+						</div>
+				
+				
+						<span class="card-type">Psiquico</span>
+				
+						<div class="card-img">
+							<img src="src/images/pokebola.png" alt="fundo">
+							<img class="pok-lugia" src="src/images/lugia.png" alt="Lugia">
+						</div>
+					</div>
+				
+					<div class="card-info">
+						<div class="status">
+							<h3>Atributos</h3>
+							<ul>
+								<li>HP: 700</li>
+								<li>Ataque: 700</li>
+								<li>Defesa: 600</li>
+								<li>Velocidade: 500</li>
+								<li>Total: 2500</li>
+							</ul>
+						</div>
+				
+						<div class="skills">
+							<h3>Habilidades</h3>
+							<ul>
+								<li>Ataque psiquico</li>
+								<li>Corte X</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+			</div>
+
+			<nav class="poke-selector">
+				<ul>
+					<li class="pokemon" id="bulbasaur">
+						<img src="src/images/cabeca-bulbasaur.png" alt="bulbasaur head image">
+						<span>Bulbasaur</span>
+					</li>
+					<li class="pokemon" id="charmander">
+						<img src="src/images/cabeca-charmander.png" alt="charmander head image">
+						<span>Charmander</span>
+					</li>
+					<li class="pokemon on" id="pikachu">
+						<img src="src/images/cabeca-pikachu.png" alt="pikachu head image">
+						<span>Pikachu</span>
+					</li>
+					<li class="pokemon" id="gengar">
+						<img src="src/images/cabeca-gengar.png" alt="gengar head image">
+						<span>Gengar</span>
+					</li>
+					<li class="pokemon" id="gyarados">
+						<img src="src/images/cabeca-gyarados.png" alt="gyarados head image">
+						<span>Gyarados</span>
+					</li>
+					<li class="pokemon" id="dragonite">
+						<img src="src/images/cabeca-dragonite.png" alt="dragonite head image">
+						<span>Dragonite</span>
+					</li>
+					<li class="pokemon" id="lugia">
+						<img src="src/images/cabeça-lugia.png" alt="lugia head image">
+						<span>Lugia</span>
+					</li>
+				</ul>
+			</nav>
+
+		</div>
+	</main>
+
+	<script src="src/js/index.js"></script>
+
+	<script src="src/js/music.js"></script>
+</body>
+
+</html>
